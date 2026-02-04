@@ -1,20 +1,25 @@
- Real-Time Vehicle & Lane Detection for Autonomous Driving
+  Real-Time Vehicle Detection with YOLOv8
 
- Overview
-This project implements a real-time vehicle and lane detection system for autonomous driving using computer vision techniques.
+This project implements a real-time vehicle detection system on traffic videos using YOLOv8.
 
-Features
-- Vehicle detection using YOLOv8
-- Lane detection using OpenCV
-- Real-time video processing
-- Visualized output with bounding boxes and lane overlays
+ Features
+- Real-time vehicle detection on dense traffic scenes
+- Confidence and bounding-box area filtering
+- FPS measurement and performance analysis
+
+#Performance
+- Resolution: 384x640
+- FPS: 20–23 (CPU)
+- Inference time: ~45 ms per frame
+
  Tech Stack
 - Python
-- PyTorch
-- YOLOv8
 - OpenCV
-- NumPy
+- YOLOv8 (Ultralytics)
 
- Status
-In Progress
+ How to Run
+```bash
+pip install -r requirements.txt
+python src/main.py
+
 
