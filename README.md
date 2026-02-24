@@ -53,10 +53,10 @@ pip install ultralytics opencv-python torch
 vehicle-and-lane-detection-autonomous-driving/
 ├── data/
 │   └── sample_videos/
-│       └── highway.mp4          # Input video (add your own)
+│       └── highway.mp4         
 ├── src/
-│   └── detect.py                # Main detection script
-├── output.mp4                   # Saved output (optional)
+│   └── detect.py                
+├── output.mp4                  
 └── README.md
 ```
 
